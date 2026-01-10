@@ -18,7 +18,6 @@
             $counterChetnie +=1;
         }
 
-
         return $itog = [$sum, $counterChetnie, $counterNotChetnie];
     }
 ?>
