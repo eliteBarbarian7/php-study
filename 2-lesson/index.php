@@ -30,9 +30,8 @@ while(true){
         echo "Возраст: ";
         $age = readline();
 
-        $pupilObject = new Pupil($name, $age);
-        $pupilObject -> message_person();
-        $pupilObject -> message_pupil($numberClass);
+        $pupilObject = new Pupil($numberClass,$name, $age);
+        $pupilObject -> message_pupil();
     }
     elseif ($otvet == 3) {
         echo "ВЫ ВЫШЛИ ИЗ ПРОГРАММЫ";
